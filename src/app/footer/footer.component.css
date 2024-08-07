@@ -1,0 +1,14 @@
+.container-fluid{
+    background-color: #EEEEEE;
+}
+i,li{
+  color:#777 ;
+  transition: all .3s ease-in-out;
+}
+i:hover , li:hover{
+color:black
+}
+h2{
+    margin-bottom:10px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}

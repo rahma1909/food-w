@@ -1,0 +1,57 @@
+h3 span {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: rgb(250, 192, 49);
+    line-height: 0.9;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  .header{
+    margin:75px 0px;
+  }
+.container-fluid{
+    background-image: url("../../assets/bg1.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+.item:hover img{
+    border:solid lightgray 10px;
+     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(30%);
+}
+.contant{
+    transition: all .1s ease-in-out;
+}
+.item:hover .contant{
+opacity: 0;
+}
+img{
+    width:200px;
+    height:200px;
+transition: all .3 ease-in-out;
+    border-radius: 20px;
+}
+h4{
+    color:rgb(250, 192, 49);
+}
+i{
+    transition: all .3s ease-in-out;
+}
+i:hover{
+color:rgb(250, 192, 49);
+}
+.inner:hover{
+    background-color: transparent !important;
+    border-radius: 50% !important;
+    box-shadow:none;
+}
+.inner{
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    transition: all .3s ease-in-out;
+    width:250px
+}

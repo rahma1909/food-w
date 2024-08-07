@@ -1,0 +1,50 @@
+h3 span {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  color: rgb(250, 192, 49);
+  line-height: 0.9;
+}
+.header{
+  margin:75px 0px;
+}
+h3 {
+  font-size: 40px;
+}
+.layer{
+  background-color: rgba(0,0 , 0, .5);
+  position: absolute;
+  inset:0;
+}
+button{
+  background-color:rgb(250, 192, 49);
+  border-color: rgb(250, 192, 49);
+  color:white
+}
+button:hover{
+color:rgb(250, 192, 49);
+background-color: white;
+}
+h6{
+  color:rgb(250, 192, 49);
+  font-size:20px;
+}
+.item .layer {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.item:hover .layer {
+  opacity: 1;
+  visibility: visible;
+}
+
+.item .layer button {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .7s ease-in-out 0.5s, visibility .7s ease-in-out 0.5s;
+}
+
+.item:hover .layer button {
+  opacity: 1;
+  visibility: visible;
+}

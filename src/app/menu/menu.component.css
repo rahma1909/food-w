@@ -1,0 +1,90 @@
+:root {
+  --main-color: rgb(250, 192, 49);
+  --main-transition: 0.4s ease;
+}
+
+h3 span {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  color: rgb(250, 192, 49);
+  line-height: 0.9;
+}
+h3 {
+  font-size: 40px;
+}
+.item {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+h5 {
+  color: #fac031;
+}
+.p1 {
+  color: gray;
+  font-size: 13px;
+}
+.p2 {
+  font-size: 17px;
+}
+
+.stars {
+  color: #fac031;
+}
+
+button {
+  padding: 10px 20px;
+  color: white;
+  background-color: #fac031;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  z-index: 1;
+  font-weight: bold;
+  position: relative;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  z-index: -1;
+  transform-origin: left;
+  transition: transform 0.5s ease;
+  transform: scaleX(1);
+}
+
+button:hover::before {
+  transform-origin: right;
+  transition: transform 0.5s ease;
+  transform: scaleX(0);
+}
+
+.image {
+  overflow: hidden; /* Ensures the image does not overflow the image */
+  position: relative;
+}
+
+.image img {
+  height: 200px;
+  transition: transform 0.3s ease;
+}
+
+.image img:hover {
+  transform: scale(1.1);
+}
+.layer-container {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+
+}
+nav {
+
+
+  transition: height 0.3s ease !important;
+  height: 60px;
+
+}

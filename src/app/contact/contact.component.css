@@ -1,0 +1,11 @@
+h3 span {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: rgb(250, 192, 49);
+    line-height: 0.9;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  .header{
+    margin:75px 0px;
+  }

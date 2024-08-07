@@ -1,0 +1,13 @@
+.container{
+    background-image: url("../../assets/bg2.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  button{
+    background-color: #FAC031;
+    transition: all .3s ease-in-out;
+  }
+  button:hover{
+    background-color: black;
+    color:white
+  }

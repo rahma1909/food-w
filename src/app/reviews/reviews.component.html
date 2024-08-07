@@ -1,0 +1,38 @@
+<div class="d-flex header justify-content-center align-items-center">
+  <h3 class="fw-bold">customer <span>Services</span></h3>
+</div>
+
+<div class="container">
+  <div class="row">
+  @for (rev of reviews; track $index) {
+    <div class="col-md-4 col-lg-3 col-sm-6">
+      <div
+        class="item d-flex justify-content-center align-items-center flex-column"
+      >
+        <img
+          src="{{rev.imgsrc}}"
+          class="rounded-circle"
+          alt=""
+        />
+        <h3 class="fs-5 my-2 fw-bold">{{rev.name}}</h3>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+        <div class="icons">
+          <i class="fa-brands fa-facebook mx-1"></i>
+          <i class="fa-brands fa-youtube mx-1"></i>
+          <i class="fa-brands fa-twitter mx-1"></i>
+          <i class="fa-brands fa-instagram mx-1"></i>
+        </div>
+        <p class="my-2">
+         {{rev.review}}
+        </p>
+      </div>
+    </div>
+  }
+  </div>
+</div>

@@ -1,0 +1,40 @@
+p{
+  font-size: 13px;
+  color: gray;
+  line-height: 1.5;
+}
+h1 span{
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  color: rgb(250, 192, 49);
+  line-height: .9;
+
+}
+h1{
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom:30px
+}
+button{
+  background-color: rgb(250, 192, 49);
+color:#fff;
+transition: .3s ease-in-out;
+
+
+}
+
+button:hover{
+  color:rgb(250, 192, 49);
+  border-color: rgb(250, 192, 49);
+}
+@keyframes moveBackAndForth {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(20px);
+  }
+}
+button:hover i{
+
+  animation: moveBackAndForth .5s infinite alternate;
+ }
